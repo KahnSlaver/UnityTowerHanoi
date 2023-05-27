@@ -31,7 +31,7 @@ public class TransferRing : MonoBehaviour
         {
             sim=true;
             AutoTransferArray(StackSpawn.ringsCount,StackA,StackB,StackC);
-            InvokeRepeating(nameof(Simulation),0,1f);
+            InvokeRepeating(nameof(Simulation),1f,1f);
         }
         ButPanel=true;
         buttonPanel1.SetActive(false);
