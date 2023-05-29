@@ -146,7 +146,7 @@ public class TransferRing : MonoBehaviour
         return popped;
     }
 
-    private void AddRing(GameObject obj, Transform B) //Would Be used as a add
+    private void AddRing(GameObject obj, Transform B) //Would Be used as a append
     {   
         if(B.childCount>0&&obj.transform.localScale.x>B.GetChild(0).localScale.x)
         {   

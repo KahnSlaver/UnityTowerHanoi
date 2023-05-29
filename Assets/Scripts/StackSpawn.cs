@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StackSpawn : MonoBehaviour
 {   
-    [SerializeField]private int rings =0;
+    [SerializeField]private int rings;
     public static int ringsCount;
     [SerializeField]private GameObject ringPrefab;
 
