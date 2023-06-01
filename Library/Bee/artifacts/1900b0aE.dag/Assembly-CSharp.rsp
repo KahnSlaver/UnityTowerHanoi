@@ -380,9 +380,9 @@
 "Assets/Externals/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/Externals/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Scripts/Node.cs"
-"Assets/Scripts/StackSpawn.cs"
 "Assets/Scripts/StackSpawnSim.cs"
 "Assets/Scripts/TransferRing.cs"
+"Assets/Scripts/UIController.cs"
 -langversion:9.0
 
 /deterministic

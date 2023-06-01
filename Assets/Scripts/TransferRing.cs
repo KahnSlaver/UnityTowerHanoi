@@ -30,14 +30,13 @@ public class TransferRing : MonoBehaviour
         else if(SceneManager.GetActiveScene().buildIndex==2)
         {
             sim=true;
-            AutoTransferArray(StackSpawn.ringsCount,StackA,StackB,StackC);
+            AutoTransferArray(UIController.getRings(),StackA,StackB,StackC);
             InvokeRepeating(nameof(Simulation),1f,1f);
         }
         ButPanel=true;
         buttonPanel1.SetActive(false);
         buttonPanel2.SetActive(false);
         buttonPanel3.SetActive(false);
-        Debug.Log(StackSpawn.ringsCount);
         
     }
 
@@ -100,6 +99,11 @@ public class TransferRing : MonoBehaviour
         fir = StackB;
         ButPanel=!ButPanel;
         Transfer();
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
     public void addButtonC()
     {   
